@@ -16,24 +16,18 @@ struct Home: View {
         VStack{
             //HeaderView()
             
-            CustomCarousel(index: $currentIndex, items: movies, cardPadding: 50, id: \.id){ movie, cardSize in
-                Image(movie.pic)
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    //.frame(width: cardSize.width, height: cardSize.height)
-                    .frame(width: 200.0, height: 200.0)
-                    //.clipShape(Circle())
-                    //.clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+            CustomCarousel(index: $currentIndex, items: list_names, cardPadding: 50, id: \.self){ item, cardSize in
+                postType(img_name: item)
             }
-            .background(.blue)
             .padding(.horizontal, -15)
             .padding(.vertical)
         }
         .padding([.horizontal, .top], 50)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-        .background {
-            GeometryReader{proxy in }
-        }
+        //.background {GeometryReader{proxy in }}
+        .background(Color("mydark"))
+        .edgesIgnoringSafeArea(.all)
+        
         
     }
     @ViewBuilder

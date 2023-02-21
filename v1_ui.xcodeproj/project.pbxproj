@@ -38,6 +38,8 @@
 		3149C3EC29A32CB600CE62DE /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3149C3EB29A32CB600CE62DE /* Movie.swift */; };
 		3149C3EE29A32E1D00CE62DE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3149C3ED29A32E1D00CE62DE /* Home.swift */; };
 		3149C3F029A446E800CE62DE /* CustomCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3149C3EF29A446E800CE62DE /* CustomCarousel.swift */; };
+		3149C3F629A50DD300CE62DE /* postType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3149C3F529A50DD300CE62DE /* postType.swift */; };
+		3149C3F829A511ED00CE62DE /* TestHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3149C3F729A511ED00CE62DE /* TestHome.swift */; };
 		31DE8D7B29A1D91B009A0A18 /* real_home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE8D7A29A1D85B009A0A18 /* real_home.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +76,8 @@
 		3149C3EB29A32CB600CE62DE /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		3149C3ED29A32E1D00CE62DE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		3149C3EF29A446E800CE62DE /* CustomCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCarousel.swift; sourceTree = "<group>"; };
+		3149C3F529A50DD300CE62DE /* postType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postType.swift; sourceTree = "<group>"; };
+		3149C3F729A511ED00CE62DE /* TestHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHome.swift; sourceTree = "<group>"; };
 		31DE8D7A29A1D85B009A0A18 /* real_home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = real_home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +111,7 @@
 				3149C3E429A3298600CE62DE /* sunday15.swift */,
 				3149C3E629A32BC400CE62DE /* sunday16.swift */,
 				3149C3E829A32BE800CE62DE /* sunday17.swift */,
+				3149C3F429A50DBE00CE62DE /* real shit */,
 				3149C3EA29A32C2D00CE62DE /* move car */,
 				31DE8D7929A1D775009A0A18 /* first things */,
 				3117A7802991F8D60081CFEA /* v1_ui */,
@@ -149,6 +154,15 @@
 				3149C3EF29A446E800CE62DE /* CustomCarousel.swift */,
 			);
 			path = "move car";
+			sourceTree = "<group>";
+		};
+		3149C3F429A50DBE00CE62DE /* real shit */ = {
+			isa = PBXGroup;
+			children = (
+				3149C3F529A50DD300CE62DE /* postType.swift */,
+				3149C3F729A511ED00CE62DE /* TestHome.swift */,
+			);
+			path = "real shit";
 			sourceTree = "<group>";
 		};
 		31DE8D7929A1D775009A0A18 /* first things */ = {
@@ -255,8 +269,10 @@
 				3149C3EC29A32CB600CE62DE /* Movie.swift in Sources */,
 				3149C3E129A31A4300CE62DE /* sunday13.swift in Sources */,
 				3149C3E529A3298600CE62DE /* sunday15.swift in Sources */,
+				3149C3F829A511ED00CE62DE /* TestHome.swift in Sources */,
 				3149C3CF29A2945A00CE62DE /* sunday4.swift in Sources */,
 				3149C3CD29A291DA00CE62DE /* sunday3.swift in Sources */,
+				3149C3F629A50DD300CE62DE /* postType.swift in Sources */,
 				3149C3DF29A2DAA000CE62DE /* sunday12.swift in Sources */,
 				3117A7B229989CBC0081CFEA /* openai1.swift in Sources */,
 				3149C3DB29A2C8BB00CE62DE /* sunday10.swift in Sources */,
