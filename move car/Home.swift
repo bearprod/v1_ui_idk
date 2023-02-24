@@ -19,12 +19,9 @@ struct Home: View {
             CustomCarousel(index: $currentIndex, items: list_names, cardPadding: 50, id: \.self){ item, cardSize in
                 postType(img_name: item)
             }
-            .padding(.horizontal, -15)
-            .padding(.vertical)
+
         }
-        .padding([.horizontal, .top], 50)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-        //.background {GeometryReader{proxy in }}
         .background(Color("mydark"))
         .edgesIgnoringSafeArea(.all)
         

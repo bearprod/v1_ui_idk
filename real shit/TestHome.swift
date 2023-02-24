@@ -9,11 +9,14 @@ import SwiftUI
 
 struct TestHome: View {
     var body: some View {
-        VStack {
-                   ForEach(posts, id: \.self) { post in
-                       post
-                   }
-               }
+        ScrollView(.horizontal, showsIndicators: false) {
+            LazyHStack {
+                ForEach(posts, id: \.self) { post in
+                    post
+                }
+            }
+        }
+
     }
 }
 
