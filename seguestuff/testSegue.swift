@@ -12,43 +12,43 @@ import SwiftUISegues
 struct testSegue: View {
     // All the routes that lead from this view to the next ones
     enum Route: Hashable {
-        case switchTest, modalTest, popoverTest
+        case switchTest, modalTest, popoverTest // add other names as u see fit
     }
     
     // Triggers segues when its values are changes
     @State private var route: Route? = nil
     
     var body: some View {
-        NavigationView {
-            VStack(spacing: 20) {
-                Button("would nut") {
-                    // Navigate by setting route values
-                    route = .switchTest
-                }
-                Button("Modal") {
-                    route = .modalTest
-                }
-                Button("Popover") {
-                    route = .popoverTest
-                }
-            }
-            .navigationBarTitle("SwiftUI Segues", displayMode: .inline)
             
-            // Here are individual, mixed segues, with their destinations
-            .segue(.switch(.slide, .easeInOut(duration: 2)), tag: .switchTest, selection: $route) {
-                Text("did we switch?")
+        VStack{
+            ZStack{
+                Color("mydark")
+                    .edgesIgnoringSafeArea(.all)
                     .background(Color("mydark"))
-            }
-            .segue(.modal, tag: .modalTest, selection: $route) {
-                Button("Welcome to modal") {
-                    route = nil
+                
+                VStack(spacing: 150.0){
+                    sunday4(img_name: "az", size: 240.0)
+                        .offset(x: 0, y: 80)
+                    Button("switch button") {
+                        route = .switchTest
+                    }
+                    .foregroundColor(.white)
+                    .font(.system(size: 30, weight: .heavy, design: .default))
+    
                 }
+                .segue(.switch(.asymmetric(insertion: .move(edge: .top).combined(with: .offset(y: -200)), removal: .move(edge: .bottom).combined(with: .offset(y: 200))),  .easeInOut(duration: 2)), tag: .switchTest, selection: $route) {
+                    
+                    sunday4(img_name: "jordan")
+                        .offset(x: 120, y: -140)
+                    sunday4(img_name: "me")
+                        .offset(x: 30, y: -270)
+                    sunday4(img_name: "ye")
+                        .offset(x: -110, y: -160)
             }
-            .segue(.popover(.rect(.bounds), .top), tag: .popoverTest, selection: $route) {
-                Text("Welcome to Popover")
+           
             }
-            //.seque(.switch()
         }
+
     }
 }
 

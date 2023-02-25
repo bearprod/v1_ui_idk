@@ -42,6 +42,7 @@
 		3149C3F829A511ED00CE62DE /* TestHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3149C3F729A511ED00CE62DE /* TestHome.swift */; };
 		3149C43F29A68D0100CE62DE /* SwiftUISegues in Frameworks */ = {isa = PBXBuildFile; productRef = 3149C43E29A68D0100CE62DE /* SwiftUISegues */; };
 		3149C44229A68D6F00CE62DE /* testSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3149C44129A68D6F00CE62DE /* testSegue.swift */; };
+		3149C44429A85EF300CE62DE /* sunday18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3149C44329A85EF300CE62DE /* sunday18.swift */; };
 		31DE8D7B29A1D91B009A0A18 /* real_home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DE8D7A29A1D85B009A0A18 /* real_home.swift */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,7 @@
 		3149C3F529A50DD300CE62DE /* postType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postType.swift; sourceTree = "<group>"; };
 		3149C3F729A511ED00CE62DE /* TestHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHome.swift; sourceTree = "<group>"; };
 		3149C44129A68D6F00CE62DE /* testSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testSegue.swift; sourceTree = "<group>"; };
+		3149C44329A85EF300CE62DE /* sunday18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sunday18.swift; sourceTree = "<group>"; };
 		31DE8D7A29A1D85B009A0A18 /* real_home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = real_home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +117,7 @@
 				3149C3E429A3298600CE62DE /* sunday15.swift */,
 				3149C3E629A32BC400CE62DE /* sunday16.swift */,
 				3149C3E829A32BE800CE62DE /* sunday17.swift */,
+				3149C44329A85EF300CE62DE /* sunday18.swift */,
 				3149C44029A68D0E00CE62DE /* seguestuff */,
 				3149C3F429A50DBE00CE62DE /* real shit */,
 				3149C3EA29A32C2D00CE62DE /* move car */,
@@ -286,6 +289,7 @@
 				3117A79929935E1D0081CFEA /* pathview.swift in Sources */,
 				3117A7902991F9140081CFEA /* circle_layout.swift in Sources */,
 				3149C3EC29A32CB600CE62DE /* Movie.swift in Sources */,
+				3149C44429A85EF300CE62DE /* sunday18.swift in Sources */,
 				3149C3E129A31A4300CE62DE /* sunday13.swift in Sources */,
 				3149C3E529A3298600CE62DE /* sunday15.swift in Sources */,
 				3149C3F829A511ED00CE62DE /* TestHome.swift in Sources */,

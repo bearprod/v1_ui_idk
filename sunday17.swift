@@ -9,7 +9,14 @@ import SwiftUI
 
 struct sunday17: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Color("mydark")
+                .edgesIgnoringSafeArea(.all)
+                .background(Color("mydark"))
+            sunday4(img_name: "az", size: 240.0)
+                .offset(x: 0, y: 80)
+            
+        }
     }
 }
 
