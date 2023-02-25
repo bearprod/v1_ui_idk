@@ -18,7 +18,7 @@ struct sunday4: View {
                 Image(img_name)
                     .resizable()
                     .frame(width: size, height: size)
-                    .blur(radius: 8)
+                    //.blur(radius: 8)
                     .clipShape(Circle())
             }
             .shadow(color: .pink, radius: 8)
